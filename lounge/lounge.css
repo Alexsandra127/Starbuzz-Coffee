@@ -12,5 +12,15 @@ h1, h2 {
 			
 			p {
 				color:maroon;
-				
+			}
+			p.greentea{
+						color:green;
+			}
+			
+			p.raspberry{
+						color: blue;
+			}
+			
+			p.blueberry{
+						color:purple;
 			}
