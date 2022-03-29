@@ -16,14 +16,15 @@ h1, h2 {
 				font-size: 130%;
 			}
 			
-.guarantee{
-		border-color: black;
+#guarantee{
+		border-color: white;
 		border-width: 1px;
-		border-style: solid;
+		border-style: dashed;
 		background-color: #a7cece;
 		padding: 25px;
 		padding-left: 80px;
 		margin: 30px;
+		margin-right: 250px;
 		line-height: 1.9em;
 		font-family; Georgia, "Times New Roman", Times, serif;
 	    color:#444444;
@@ -31,7 +32,11 @@ h1, h2 {
 		background-image: url(images/background.gif);
 		background-repeat: no-repeat;
 		background-position: top left;
-		
-		
-		}
-		
+	}
+	
+#elixirs{
+	border-width: thin;
+	border-style: solid;
+	border-color: #007e7e;
+	width: 200px;
+}
