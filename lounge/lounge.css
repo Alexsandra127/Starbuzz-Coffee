@@ -16,31 +16,33 @@ h1, h2 {
 				font-size: 130%;
 			}
 			
-#guarantee{
-		border: 1px dashed white;
-		background-color: #a7cece;
-		padding:  25px;
-		padding-left: 80px;
-		margin:  30px;
-		margin-right: 250px;
-		line-height: 1.9em;
-		font-family; Georgia, "Times New Roman", Times, serif;
-	    color:#444444;
-		font-style: italic;
-		background-image: url(images/background.gif);
-		background-repeat: no-repeat;
-		background-position: top left;
-	}
+#guarantee {
+  line-height: 1.9em;
+  font-style: italic;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #444444;
+  border: 1px dashed white;
+  background-color: #a7cece;
+  padding: 25px;
+  padding-left: 80px;
+  margin: 30px;
+  margin-right: 250px;
+  background-image: url(images/background.gif);
+  background-repeat: no-repeat;
+  background-position: top left;
+}
+
 	
-#elixirs{
-	border: thin solid #007e7e;
-	width: 200px;
-	padding: 0px 20px 20px 20px;
-	margin-left: 20px;
-	text-align: center;
-	background-image: url("images/cocktail.gif");
-	background-repeat: repeat-x;
-	line-height: 1;
+#elixirs {
+  border: thin solid #007e7e;
+  width: 200px;
+  padding: 0px 20px 20px 20px;
+  margin-left: 20px;
+  text-align: center;
+  background-image: url("images/cocktail.gif");
+  background-repeat: repeat-x;
+  line-height: 1;
+  float: right;
 }
 
 #elixirs h2 {
@@ -58,5 +60,39 @@ h1, h2 {
 	margin-top: 30px;
 }
 
+.cd {
+	font-style: italic;
+}
+
+#elixirs .artist{
+	font-weight: bold;
+}
+
+#elixirs a:link {
+	color: #007e7e;
+}
+#elixirs a:visited {
+	color: #333333;
+}
+
+#elixirs a:hover{
+	background: #f88396;
+	color: #0d5353;
+}
+
+#elixirs .artist{
+	font-weight: bold;
+}
+
+a:link {
+	color: #007e7e;
+}
+a:visited {
+	color: #333333;
+}
+
+a:hover{
+	background: #f88396;
+	color: #0d5353;
 }
 
